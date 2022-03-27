@@ -2,12 +2,11 @@
 <html lang="pt-br">
   <head>
     <title>Título da página</title>
-    <meta http-equiv="refresh" content="2">
+    <meta http-equiv="refresh" content="3">
  </head>
   <body>
     <font face=Courier>
 <br><br>
-
 <div id='test'></div>
 <script>
 // Obtém a data/hora atual
@@ -32,21 +31,14 @@ var seg100falta = 100-Math.round(seg*1.6666666666666667);
 var mseg    	= data.getMilliseconds();   // 0-999
 var tz      	= data.getTimezoneOffset(); // em minutos
 
-
-
-
 // Formata a data e a hora (note o mês + 1)
 var str_data = dia + '/' + (mes+1) + '/' + ano4;
 var str_hora = hora100 + '% das horas do dia e';
 var str_minuto = '<br><br>' + min100 + '% dos minutos dessa hora e ';
 var str_segundos = '<br><br>' + seg100 + '% dos segundos desse minuto';
 -
-
-
-
 /// COMEÇA AQUI
 document.write('<b>Estamos em % das horas </b> do Dia ' + str_data + '<br><br>');
-
 // Mostra o resultado
 document.write(str_hora);
 var ia = 0; var len1 = hora100;
@@ -56,7 +48,6 @@ for (; ia < len1; ia++) {   document.write('|'); }
 document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
-
 document.write(str_minuto);
 var ib = 0; var len2 = min100;
 document.write('<br>');
@@ -64,7 +55,6 @@ for (; ib < len2; ib++) {   document.write('|'); }
 // Linha 100
 document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
-
 
 document.write(str_segundos);
 var ic = 0; var len3 = seg100;
@@ -75,7 +65,6 @@ document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
 document.write('<br><br><br>');
-
 
 /// Falta ainda
 document.write('<b> Faltam ainda % das horas </b> ');
@@ -103,7 +92,6 @@ for (; ib < len2; ib++) {   document.write('|'); }
 document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
-
 document.write(str_segundosfalta);
 var ic = 0; var len3 = seg100falta;
 document.write('<br>');
@@ -113,17 +101,13 @@ document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
 
-
-/////
-////////
+/////// 
+  /*
 ////////  DO DIA UTIL, HORARIO COMERCIAL DE HOJE
 //////// 
-/////
 
 document.write('<br><br><br><br><b>!<br>PERCENTUAL DO DIA UTIL, HORARIO COMERCIAL DAS 8 HORAS AS 18 HORAS<br><br>!!!<br><br></b>');
-
 document.write('<b>Estamos em % das horas </b> do Dia ' + str_data + '<br><br>');
-
 
 // Mostra o resultado
 document.write(hora100util + '% do Dia');
@@ -152,9 +136,8 @@ for (; ic < len3; ic++) {   document.write('|'); }
 document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
+
 document.write('<br><br>');
-
-
 
 document.write('<br><br><b> Faltam ainda </b>');
 document.write('do Dia ' + str_data + '<br><br>');
@@ -190,9 +173,7 @@ for (; ic < len3; ic++) {   document.write('|'); }
 document.write('<br>');
 var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
-
-
-
+*/
 
 
 /////// DOS DIAS DO ANO
