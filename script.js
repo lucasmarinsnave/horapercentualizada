@@ -93,7 +93,7 @@ var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
 /////// DOS DIAS DO ANO
 
-document.write('<br><br><br><br><br>');
+document.write('<br><br><br>');
 var str_hora = hora + ':' + min + ':' + seg;
 document.write('Hoje é ' + str_data + ' às ' + str_hora);
 document.write('<br>');
