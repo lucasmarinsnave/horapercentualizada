@@ -100,7 +100,7 @@ document.write('Hoje é ' + str_data + ' às ' + str_hora);
 document.write('<br>');
 */
 
-document.write('<br>');
+document.write('<br><br><br>');
 var dias	= (mes)*30+dia; 
 var dias100 	= Math.round(dias/365*100);
 document.write(dias + ' dias do Ano');
@@ -115,7 +115,7 @@ var iXa = 0; for (; iXa < 100; iXa++) {   document.write('_'); }
 
 ///// DOS DIAS DO MES
 
-document.write('<br> ');
+document.write('<br><br> ');
 var mes100 	= Math.round(dia/30*100);
 document.write(dia + ' dias do Mes');
 document.write(' e <br> em Porcentagem <b>' + mes100 + '% do mês</b>');
