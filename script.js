@@ -93,10 +93,12 @@ var i0a = 0; for (; i0a < 100; i0a++) {   document.write('_'); }
 
 /////// DOS DIAS DO ANO
 
-document.write('<br><br><br>');
+/*
+document.write('<br>');
 var str_hora = hora + ':' + min + ':' + seg;
 document.write('Hoje é ' + str_data + ' às ' + str_hora);
 document.write('<br>');
+*/
 
 document.write('<br>');
 var dias	= (mes)*30+dia; 
@@ -112,11 +114,6 @@ var iXa = 0; for (; iXa < 100; iXa++) {   document.write('_'); }
 
 
 ///// DOS DIAS DO MES
-
-document.write('</font><br><br><br><font face=Courier>');
-var str_hora = hora + ':' + min + ':' + seg;
-document.write('Hoje é ' + str_data + ' às ' + str_hora);
-document.write('<br>');
 
 document.write('<br> ');
 var mes100 	= Math.round(dia/30*100);
