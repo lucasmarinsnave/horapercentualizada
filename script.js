@@ -100,7 +100,7 @@ document.write('Hoje é ' + str_data + ' às ' + str_hora);
 document.write('<br>');
 */
 
-document.write('<br><br><br>');
+document.write('<br>-----------<br><br>');
 var dias	= (mes)*30+dia; 
 var dias100 	= Math.round(dias/365*100);
 document.write(dias + ' dias do Ano');
