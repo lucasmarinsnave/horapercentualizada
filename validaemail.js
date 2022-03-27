@@ -11,7 +11,7 @@ $("#result").css("color", "green");
 } else {
 $("#result").text(emailaddress + " não está correto, tente novamente:(");
 $("#result").css("color", "red");
-}
+} 
 return false;
 }
 $("#validate").bind("click", validate);
